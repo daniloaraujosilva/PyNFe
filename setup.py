@@ -1,5 +1,5 @@
 import sys, doctest, os, glob
-
+from functools import reduce
 CUR_DIR = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, CUR_DIR)
 
